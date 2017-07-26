@@ -11,8 +11,8 @@ public class Spiral {
 		for(int i=0; i< 10000; i++){
 		pbg.setRandomPenColor();
 		pbg.move(5*i);
-		pbg.turn(360/3);
-		pbg.setPenWidth(1);
+		pbg.turn(360/4);
+		pbg.setPenWidth(i);
 		
 		
 			
